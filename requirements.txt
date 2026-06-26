@@ -1,2 +1,13 @@
-numpy>=1.24
-opencv-python>=4.8
+# For CUDA builds of PyTorch, install the wheel that matches your CUDA runtime.
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+kornia>=0.6.0
+numpy>=1.24.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+transformers>=4.45.0
+nibabel>=5.2.0
+scipy>=1.13.0
+# Optional utilities used by paper/document helper scripts.
+python-docx>=1.1.0
