@@ -2,6 +2,10 @@
 
 CGMatch is a visible-infrared image matching and registration project. 
 
+<img width="616" height="308" alt="image" src="https://github.com/user-attachments/assets/d541f786-fada-4a3d-ad08-e009928571ec" />
+
+
+
 ## Repository Contents
 
 - `dataset/LPC-Set`: LPC-Set (local photometric change dataset) real collected data
