@@ -1,55 +1,72 @@
-# CGMatch Demo
+# CGMatch 
 
-This repository is a lightweight public demo for CGMatch, a visible-infrared image matching and registration project.
+CGMatch is a visible-infrared image matching and registration project. 
 
-The full research code, trained weights, private datasets, benchmark scripts, ablation runs, and paper artifacts are intentionally not included here. This demo only shows the expected project interface and a mock visualization workflow.
+## Repository Contents
 
-## What is Included
+- `dataset/LPC-Set`: LPC-Set (local photometric change dataset) real collected data
+- `requirements.txt`: summarized dependencies used by the full private research codebase.
 
-- `demo.py`: a runnable placeholder demo that creates a toy match visualization.
-- `cgmatch_demo/`: a small public API skeleton showing how the real project can be called.
-- `requirements.txt`: minimal dependencies for the placeholder demo.
+## Full Project Environment
 
-## What is Not Included
+The full private codebase uses Python 3.8+ and the dependencies listed in `requirements.txt`.
 
-- Model implementation
-- Training code
-- Trained checkpoints
-- Private or third-party datasets
-- Benchmark reports and ablation scripts
-- Paper drafts and experiment logs
+Core dependencies:
 
-## Quick Start
+- PyTorch and torchvision for model training and inference
+- OpenCV, Kornia, NumPy, and SciPy for image processing and geometry
+- Transformers for loading the SuperPoint frontend
+- tqdm and matplotlib for training utilities and visualization
+- nibabel for optional medical/NIfTI registration tests
 
-```bash
-pip install -r requirements.txt
-python demo.py
-```
+For GPU training, install a PyTorch build matching the local CUDA runtime before installing the rest of the environment.
 
-The demo writes a visualization to:
+## Expected Dataset Layout
+
+The full training pipeline expects paired visible/infrared data, for example:
 
 ```text
-outputs/mock_matches.png
+datasets/
+  vi/
+  ir_transformed/
+  cache/
 ```
 
-You can also pass two local images:
+For generated affine-supervised pairs, each target usually has:
+
+- a visible image under `datasets/vi/`
+- warped infrared images under `datasets/ir_transformed/`
+- affine matrix files for geometric supervision
+
+The private project also supports paired visible/infrared datasets such as MEPhoto-style folders.
+
+## Typical Private Commands
+
+Training:
 
 ```bash
-python demo.py --image0 path/to/visible.png --image1 path/to/infrared.png
+python train.py --data_path datasets --epochs 100 --use_amp
 ```
 
-## Intended Full Pipeline
+Single-pair testing:
 
-```python
-from cgmatch_demo import CGMatch
-
-matcher = CGMatch()
-result = matcher.match("visible.png", "infrared.png")
-print(result.matches)
+```bash
+python registration_testing.py --visible path/to/visible.png --infrared path/to/infrared.png --model checkpoints/best_model.pth
 ```
 
-In this public demo, `CGMatch.match()` is an interface stub. The production implementation is kept private.
+Benchmarking and ablations:
 
-## Project Status
+```bash
+python run_comprehensive_benchmark.py --model-path checkpoints/best_model.pth
+python run_complete_ablation.py --all --model-path checkpoints/best_model.pth
+```
 
-This is a display-only demo repository for academic/project presentation. It is not intended to reproduce the full experimental results.
+These commands require the private code, datasets, and checkpoints.
+
+## To Do List
+
+1.Upload the source code
+
+2.Upload the Weight
+
+3.Update the complete dataset
