@@ -38,8 +38,6 @@ For generated affine-supervised pairs, each target usually has:
 - warped infrared images under `datasets/ir_transformed/`
 - affine matrix files for geometric supervision
 
-The private project also supports paired visible/infrared datasets such as MEPhoto-style folders.
-
 ## Typical Private Commands
 
 Training:
