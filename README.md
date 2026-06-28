@@ -2,9 +2,13 @@
 
 CGMatch is a visible-infrared image matching and registration project. 
 
-<img width="616" height="308" alt="image" src="https://github.com/user-attachments/assets/d541f786-fada-4a3d-ad08-e009928571ec" />
+<img width="3684" height="2016" alt="模型结构 drawio" src="https://github.com/user-attachments/assets/f31e4446-fb40-4d58-a7b8-76dc63501b3c" />
 
+<img width="2612" height="1096" alt="SSM drawio" src="https://github.com/user-attachments/assets/e4a0a37c-31cc-40ee-86eb-a8aa138bb4d5" />
 
+<img width="1300" height="960" alt="效果图 drawio" src="https://github.com/user-attachments/assets/52556ec2-92fe-421f-9832-6eb231de3b6a" />
+
+<img width="3927" height="1590" alt="量化图 drawio" src="https://github.com/user-attachments/assets/f25f569f-3c0c-4a9d-a9dc-a25f257d142e" />
 
 ## Repository Contents
 
