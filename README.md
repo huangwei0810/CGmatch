@@ -1,4 +1,4 @@
-<img width="3280" height="2083" alt="4-1" src="https://github.com/user-attachments/assets/3ec50c82-9cb8-4069-beca-6062dc692284" /><img width="4352" height="952" alt="SSM2 0" src="https://github.com/user-attachments/assets/dc623233-c1b3-4626-9963-e809190ae9c7" /># CGMatch 
+# CGMatch 
 
 CGMatch is a visible-infrared image matching and registration project. 
 
