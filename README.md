@@ -1,14 +1,18 @@
-# CGMatch 
+<img width="3280" height="2083" alt="4-1" src="https://github.com/user-attachments/assets/3ec50c82-9cb8-4069-beca-6062dc692284" /><img width="4352" height="952" alt="SSM2 0" src="https://github.com/user-attachments/assets/dc623233-c1b3-4626-9963-e809190ae9c7" /># CGMatch 
 
 CGMatch is a visible-infrared image matching and registration project. 
 
-<img width="3684" height="2016" alt="模型结构 drawio" src="https://github.com/user-attachments/assets/f31e4446-fb40-4d58-a7b8-76dc63501b3c" />
+<img width="4316" height="1600" alt="3-1" src="https://github.com/user-attachments/assets/e4f822ed-8bc2-454b-81e7-afdeeca2ef99" />
 
-<img width="2612" height="1096" alt="SSM drawio" src="https://github.com/user-attachments/assets/e4a0a37c-31cc-40ee-86eb-a8aa138bb4d5" />
+<img width="2340" height="2320" alt="3-3" src="https://github.com/user-attachments/assets/1deeefc7-5904-48bc-97e6-cb3712e71cc1" />
 
-<img width="1300" height="960" alt="效果图 drawio" src="https://github.com/user-attachments/assets/52556ec2-92fe-421f-9832-6eb231de3b6a" />
+<img width="4352" height="952" alt="SSM2 0" src="https://github.com/user-attachments/assets/a5bdb4a7-0024-4230-abfd-4a23e6390bc1" />
 
-<img width="3927" height="1590" alt="量化图 drawio" src="https://github.com/user-attachments/assets/f25f569f-3c0c-4a9d-a9dc-a25f257d142e" />
+<img width="2168" height="2484" alt="3-4" src="https://github.com/user-attachments/assets/19871eb0-bc85-4f14-a9b3-556b42c03362" />
+
+<img width="3280" height="2083" alt="4-1" src="https://github.com/user-attachments/assets/428c22a1-ef19-4198-9567-0bd042999519" />
+
+<img width="3284" height="2083" alt="4-1b" src="https://github.com/user-attachments/assets/683e055b-e612-45fa-bdf8-5afc58aac530" />
 
 ## Repository Contents
 
